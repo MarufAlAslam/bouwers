@@ -131,3 +131,14 @@
     z-index: -1;
     /* left: ; */
 }
+
+
+
+/* footer */
+.footer {
+    background-color: #F4F4F8;
+}
+
+.footer li {
+    line-height: 2;
+}
