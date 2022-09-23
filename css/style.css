@@ -21,7 +21,7 @@
 }
 
 .btn-orange {
-    background: #E65618;
+    background: #E65618 !important;
     border-radius: 0;
     color: white !important;
     padding: 10px 20px !important;
@@ -76,7 +76,7 @@
 }
 
 .btn-blue {
-    background: #2F2973;
+    background: #2F2973 !important;
     border-radius: 0;
     color: white !important;
     padding: 10px 20px !important;
@@ -88,4 +88,14 @@
 
 .cards.py-5 img {
     height: 60px;
+}
+
+
+/* cols */
+.fs-51 {
+    font-size: 51px;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
