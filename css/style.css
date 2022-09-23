@@ -142,3 +142,68 @@
 .footer li {
     line-height: 2;
 }
+
+@media screen and (max-width: 767px) {
+    .top.py-2 p {
+        font-size: 10px;
+    }
+
+    .hero.py-5 {
+        padding: 0 !important;
+    }
+
+    .hero .row {
+        flex-direction: column-reverse;
+    }
+
+    .hero img {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .hero .col-md-5.offset-md-3.text-end.pe-5 {
+        padding-right: 15px !important;
+    }
+
+    .mt-5.sign .d-flex {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .fs-35 {
+        font-size: 30px;
+        margin-bottom: 15px !important;
+    }
+
+    .fs-44 {
+        font-size: 26px;
+    }
+
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .cols.py-5 .row {
+        flex-direction: column-reverse;
+    }
+
+    .pink {
+        height: 100%;
+        background: #FEF3EF;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+    }
+
+    .footer.pt-5,
+    .footer .text-end {
+        text-align: center !important;
+    }
+
+    .footer .list-unstyled.d-flex.justify-content-end.align-items-center {
+        justify-content: center !important;
+    }
+}
