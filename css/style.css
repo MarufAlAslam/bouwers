@@ -26,3 +26,29 @@
     color: white !important;
     padding: 10px 20px !important;
 }
+
+
+
+/* hero */
+.text-orange {
+    color: #E65618;
+}
+
+.text-blue {
+    color: #2F2973;
+}
+
+.fs-50 {
+    font-size: 60px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.hero .container {
+    background-image: url("../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
