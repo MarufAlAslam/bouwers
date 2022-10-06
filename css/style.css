@@ -174,7 +174,19 @@
     left: 10%;
 }
 
+.right-0 {
+    right: 0;
+}
+
+.img-fluid.top-0.left-0.position-absolute.w-25 {
+    width: 250px !important;
+}
+
 @media screen and (max-width: 767px) {
+    .rev-mobile {
+        flex-direction: column-reverse;
+    }
+
     .top.py-2 p {
         font-size: 10px;
     }
