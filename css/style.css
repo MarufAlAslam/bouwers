@@ -162,7 +162,40 @@
 
 /* aboutpage */
 .blue.py-5 {
-    background: #2F297315;
+    background: #F8F8FB;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.text-brown {
+    color: #5F5982;
+}
+
+button {
+    border: unset !important;
+}
+
+.purple-card {
+    background: #E3E3ED;
+}
+
+.orange-card {
+    background: #FCFCE1;
+}
+
+.pink-card {
+    background-color: #FCE9E1;
+}
+
+.success-card {
+    background-color: #E1F8FC;
+}
+
+.card.down {
+    position: relative;
+    top: 70px;
 }
 
 .card-contents {
@@ -181,6 +214,116 @@
 .img-fluid.top-0.left-0.position-absolute.w-25 {
     width: 250px !important;
 }
+
+.border-0.imgTd {
+    width: 85px;
+}
+
+td {
+    font-size: 20px;
+    padding: 30px 10px !important;
+}
+
+.bg-blue {
+    background-color: #383478;
+}
+
+p.p-3.mb-0.text-white.bg-blue.fs-20 {
+    width: 75%;
+    position: relative;
+    top: -40%;
+    left: 0;
+}
+
+.bannner {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.card.left {
+    position: relative;
+    top: 100px;
+}
+
+.card.right {
+    position: relative;
+}
+
+.card.right::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #A4A0B9;
+    left: -35px;
+    top: 20px;
+}
+
+.card.left::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #A4A0B9;
+    right: -35px;
+    top: 20px;
+}
+
+.roadMap.py-5 .card {
+    margin-bottom: 50px;
+}
+
+.col-md-6.border-end,
+.col-md-6.border-start {
+    border-color: #A4A0B9 !important;
+}
+
+.cardsz img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.cardsz .card {
+    padding: 15px 0;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.card-contents {
+    background: #2F297313;
+    padding: 20px;
+    display: inline-block !important;
+    /* width: 75%; */
+    position: relative;
+    left: 10%;
+    margin-top: -10% !important;
+    bottom: unset;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+}
+
+.img-fluid.card-img-top.w-75.ms-auto {
+    width: 95% !important;
+    display: block;
+}
+
+.img-fluid.tile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 @media screen and (max-width: 767px) {
     .rev-mobile {
@@ -248,5 +391,101 @@
 
     .footer .list-unstyled.d-flex.justify-content-end.align-items-center {
         justify-content: center !important;
+    }
+
+    .nav-link {
+        margin: 0 !important;
+    }
+
+    header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .img-fluid.mobile-logo {
+        width: 120px;
+    }
+
+    .menu-container {
+        position: absolute;
+        background: white;
+        z-index: 100;
+        width: 100%;
+        transition: 0.5s;
+        transform: translateX(-100%);
+    }
+
+    .menu-container.active {
+        transform: translateX(0);
+    }
+
+    .card-contents {
+        background: #2F297313;
+        padding: 20px;
+        display: inline-block !important;
+        /* width: 75%; */
+        position: relative;
+        left: 0;
+    }
+
+    .img-fluid.position-absolute.top-0.right-0 {
+        display: none;
+    }
+
+    .col-md-4.p-5 {
+        padding: 20px !important;
+    }
+
+    .mobile-header.py-3.position-relative {
+        position: fixed !important;
+        width: 100%;
+        background: white;
+        z-index: 100;
+    }
+
+    .bannner.py-5 {
+        padding-top: 100px !important;
+    }
+
+    .roadMap.py-5 {
+        padding-top: 100px !important;
+    }
+
+    .card.left {
+        position: relative;
+        top: 0;
+    }
+
+    .card.left::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #A4A0B9;
+        left: 0;
+        top: 0;
+        right: unset;
+    }
+
+    .col-md-6.border-end,
+    .col-md-6.border-start {
+        border-color: transparent !important;
+    }
+
+    .card.right::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #A4A0B9;
+        left: 0;
+        top: 0;
+    }
+
+    .right .text-start {
+        text-align: right !important;
     }
 }

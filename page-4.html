@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Bouwers</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-white">
+        <!-- top -->
+        <section class="top py-2">
+            <div class="container">
+                <div class="text-end">
+                    <p class="fs-14">
+                        <span class="d-inline-block me-4">Met ons bellen? <a href="tel:050 700 15 18"
+                                class="text-dark text-decoration-none">050 700 15 18</a></span>
+                        <span>Of per mail <a href="mailto:info@onlinebouwers.nl"
+                                class="text-dark text-decoration-none">info@onlinebouwers.nl</a></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- top -->
+
+
+        <!-- navbar -->
+        <section class="navbar py-2 header" id="myHeader">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-transparent w-100">
+                    <div class="container-fluid p-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/Logo.png" class="img-fluid logo" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Diensten
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Menu 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Menu 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Menu 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Klanten</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-orange" href="#">Offerte Aanvragen</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- navbar -->
+    </header>
+
+    <!-- mobile-header -->
+    <section class="mobile-header py-3 position-relative">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="left">
+                    <button class="btn menu-toggler">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <img src="img/Logo.png" class="img-fluid mobile-logo" alt="">
+                </div>
+                <div class="right">
+                    <ul class="list-unstyled d-flex justify-content-end align-items-center mb-0">
+                        <li class="mx-3">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </li>
+                        <li class="mx-3">
+                            <a href="" class="text-dark text-decoration-none">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-container p-4 shadow">
+            <ul class="list-unstyled">
+                <li class="nav-item py-2">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown py-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Diensten
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Menu 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link" href="#">Klanten</a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item py-2">
+                    <a class="nav-link btn btn-orange" href="#">Offerte Aanvragen</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- mobile header -->
+
+
+
+    <!-- banner -->
+    <section class="bannner py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <h2 class="fw-bold text-blue mb-4">
+                        maatwerk software voor <br>
+                        bedrijven
+                    </h2>
+                    <p class="fs-20">
+                        Ben je op zoek naar een CRM-Systeem dat volledig aansluit bij jouw bedrijf? OnlineBouwers helpt
+                        je graag op weg! Wij bouwen CRM-Systemen op maat met als resultaat dat het volledig aansluit bij
+                        jouw bedrijf én werkzaamheden.
+                    </p>
+                    <table class="table mb-0">
+                        <tr>
+                            <td class="border-0 imgTd">
+                                <img src="img/Group 488.png" class="img-fluid" alt="">
+                            </td>
+                            <td class="border-0">
+                                Voor dat we gaan bouwen gaan we eerst ontwerpen. Alle pagina's worden opgemaakt zodat
+                                alle functies duidelijk zijn. Nadat de ontwerpen volledig naar wens zijn gaan we
+                                programmeren.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-0 imgTd">
+                                <img src="img/Group 486.png" class="img-fluid" alt="">
+                            </td>
+                            <td class="border-0">
+                                We bouwen alle software volledig op maat. Dit betekend dat er geen bestaande code wordt
+                                gebruikt. Het systeem wordt na oplevering eigendom van de klant.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-0 imgTd">
+                                <img src="img/Group 492.png" class="img-fluid" alt="">
+                            </td>
+                            <td class="border-0">
+                                Nadat alles klaar is gaan we door met de oplevering.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-md-6 p-4 position-relative">
+                    <img src="img/Group 530.png" class="img-fluid" alt="">
+                    <p class="p-3 mb-0 text-white bg-blue fs-20">
+                        software dat van a tot z volledig
+                        aansluit op bij onze klant
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner -->
+
+
+
+
+    <!-- blue -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <h2 class="fw-bold fs-44 text-orange mb-4">
+                        Hoe werkt het bouwen van software?
+                    </h2>
+                    <p class="fs-20">
+                        We beginnen altijd met een intakegesprek op locatie of bij ons op kantoor. Tijdens dit gesprek
+                        zijn we vooral benieuwd naar de huidige werkwijze. Welk systeem gebruik je nu? Waar loop je
+                        tegenaan?
+                        En vooral: wat zou je graag anders willen?
+
+                        Met deze informatie gaan we aan de slag. Het ontwikkelen van een maatwerk CRM-Systeem is zeer
+                        complex en wordt opgedeeld in meerdere fasen. We betrekken onze klanten daarom al vanaf het
+                        éérste moment bij de ontwikkeling van iedere fase. We geloven erin dat we op deze manier écht
+                        een systeem kunnen bouwen dat volledig aansluit op de wensen van onze klant.
+                    </p>
+                </div>
+
+                <div class="col-md-5 offset-md-1 p-4 m-auto">
+                    <p class="d-flex align-items-center text-brown fs-24 fw-medium">
+                        <i class="far fa-check-square text-orange me-2"></i> <span class="fs-24">Plan van aanpak</span>
+                    </p>
+                    <p class="d-flex align-items-center text-brown fs-24 fw-medium">
+                        <i class="far fa-check-square text-orange me-2"></i> <span class="fs-24">Offerte met
+                            urenschatting</span>
+                    </p>
+                    <p class="d-flex align-items-center text-brown fs-24 fw-medium">
+                        <i class="far fa-check-square text-orange me-2"></i> <span class="fs-24">Regelmatig
+                            overleg</span>
+                    </p>
+                    <p class="d-flex align-items-center text-brown fs-24 fw-medium">
+                        <i class="far fa-check-square text-orange me-2"></i> <span class="fs-24">Oplevering </span>
+                    </p>
+                    <p class="d-flex align-items-center text-brown fs-24 fw-medium">
+                        <i class="far fa-check-square text-orange me-2"></i> <span class="fs-24">Onderhoud en
+                            support</span>
+                    </p>
+
+                    <h2 class="fs-35 caveat fw-light my-5">
+                        Volledige pakket voor €29,- p/m
+                    </h2>
+                    <button class="fs-18 fw-bold btn-blue text-white">Direct contact opnemen</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blue -->
+
+
+    <!-- walke -->
+    <section class="walke py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-blue">
+                wat voor software hebben we al gebouwd?
+            </h2>
+
+            <div class="row mt-4">
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Rectangle 266.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Group 467.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/DSC09096.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Rectangle 266.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Group 467.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/DSC09096.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Rectangle 266.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/Group 467.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-5">
+                    <div class="card border-0">
+                        <img src="img/DSC09096.png" class="img-fluid" alt="">
+                        <div class="card-contents">
+                            <p class="fs-20 text-blue fw-medium mt-3 mb-0">
+                                Meijer Installatietechniek
+                            </p>
+                            <p class="mb-0 text-blue">
+                                <i class="fa fa-map-marker-alt"></i> veendam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- walke -->
+
+
+
+
+    <!-- footer -->
+    <section class="footer pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 p-2">
+                    <p class="fs-20 fw-bold">
+                        Sitemap
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Over ons
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Diensten
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Klanten
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 p-2">
+                    <p class="fs-20 fw-bold">
+                        Diensten
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Websites bouwen
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Webwinkels bouwen
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Software
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Vormgeving
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 p-2">
+                    <p class="fs-20 fw-bold">
+                        Extra
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Intranet
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Marketing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-dark text-decoration-none">
+                                Drukwerk
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 p-2">
+                    <p class="fs-20 fw-bold">
+                        Contact
+                    </p>
+                    <p>
+                        J.D. Veenstraat 18 <br>
+                        9672AB Winschoten
+                    </p>
+                    <p>
+                        info@onlinebouwers.nl <br>
+                        050 700 1518
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-6 p-2">
+                    <p class="mb-0 text-dark">© 2007-2022 OnlineBouwers Winschoten</p>
+                </div>
+                <div class="col-md-6 p-2 text-end">
+                    <ul class="list-unstyled d-flex justify-content-end align-items-center">
+                        <li class="ms-3">
+                            <a href="" class="text-dark">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a href="" class="text-dark">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

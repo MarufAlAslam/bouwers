@@ -15,3 +15,8 @@ function myFunction() {
         header.classList.remove("sticky");
     }
 }
+
+
+$('.menu-toggler').click(function () {
+    $('.menu-container').toggleClass('active')
+})
